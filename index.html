@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charlotte Hill</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f9f9f5;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #0a0a0a, #004d40);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      font-family: 'Merriweather', serif;
+    }
+    nav {
+      background: #e5e5e5;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem 0;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #004d40;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'Merriweather', serif;
+      color: #004d40;
+    }
+    .glossary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .term {
+      background: white;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+    .term h3 {
+      margin-top: 0;
+      color: #222;
+      font-size: 1.1rem;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 1rem 0;
+      display: block;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #004d40;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Charlotte Hill</h1>
+  </header>
+
+  <nav>
+    <a href="#future">Future Plans</a>
+    <a href="#glossary">Glossary</a>
+    <a href="#media">Media</a>
+  </nav>
+
+  <section id="future">
+    <h2>My Future Plans</h2>
+    <p>After high school, I plan to study <strong>Biological Sciences</strong>. My curiosity about life, from cells to ecosystems, drives me to explore how living things work and how science connects with technology.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Light_Microscope.jpg" alt="Microscope">
+  </section>
+
+  <section id="glossary">
+    <h2>Unit 1 & 2 Glossary</h2>
+    <div class="glossary">
+      <div class="term"><h3>Lossless Compression</h3><p>A data compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.</p></div>
+      <div class="term"><h3>Lossy Compression</h3><p>A compression method that discards some data to represent the content with inexact approximations.</p></div>
+      <div class="term"><h3>Pixel</h3><p>The fundamental unit of a digital image, typically a tiny square or dot that contains a single point of color.</p></div>
+      <div class="term"><h3>RGB</h3><p>A color model using varying intensities of red, green, and blue light to reproduce a broad array of colors.</p></div>
+      <div class="term"><h3>Metadata</h3><p>Data that describes other data (e.g., image size, number of colors, resolution).</p></div>
+      <div class="term"><h3>ASCII</h3><p>A universally recognized raw text format that any computer can understand.</p></div>
+      <div class="term"><h3>Binary Numbers</h3><p>A base-2 numbering system using only 0 and 1. Used to represent data in computers.</p></div>
+      <div class="term"><h3>Packets</h3><p>Small chunks of information carefully formed from larger chunks for transmission over a network.</p></div>
+      <div class="term"><h3>TCP</h3><p>Provides reliable, ordered, error-checked delivery of a stream of packets on the internet.</p></div>
+      <div class="term"><h3>DNS</h3><p>Translates URLs into IP addresses so browsers can load internet resources.</p></div>
+    </div>
+  </section>
+
+  <section id="media">
+    <h2>Media</h2>
+    <p>Technology and science connect everywhere, from microscopes to the internet. Below are examples that represent both worlds.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Network_router_home.jpg" alt="Home network router">
+    <iframe src="https://www.youtube.com/embed/7_LPdttKXPc" title="How the Internet Works Video"></iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Charlotte Hill | Built for GitHub Pages</p>
+  </footer>
+</body>
+</html>
